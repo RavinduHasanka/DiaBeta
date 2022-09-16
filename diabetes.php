@@ -115,8 +115,8 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/1.jpg);">
-            <h2>Predictions</h2>
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/5.jpg);">
+            <h2>Diabetes Predictions</h2>
         </div>
 
         <div class="container">
@@ -125,7 +125,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Predictions</li>
+                            <li class="breadcrumb-item"><a href="predictions.html"></i> Predictions</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Diabetes Predictions</li>
                         </ol>
                     </nav>
                 </div>
@@ -139,105 +140,30 @@
         <div class="container">
 
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
+                
+                <div class="col-12 col-sm-6">
                     <div class="single-footer-widget">
                         <center>
-                            <img src="img/pro-img/diabets.jpg" alt="">
+                            <img src="img/pro-img/prediabetes.jpg" alt="">
                             <div class="welcome-btn-group">
-                                <a href="diabetes.php" class="btn alazea-btn mr-30">Diabetes</a><br><br>
+                                <a href="prediabetes.php" class="btn alazea-btn mr-30">Prediabetes</a><br><br>
                             </div>
                         </center>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6">
                     <div class="single-footer-widget">
                         <center>
-                            <img src="img/pro-img/heart.jpg" alt="">
+                            <img src="img/pro-img/type2.jpg" alt="">
                             <div class="welcome-btn-group">
-                                <a href="heart.php" class="btn alazea-btn mr-30">Heart</a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/eye.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="eye.php" class="btn alazea-btn mr-30">Eye</a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/kidney.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="kidney.php" class="btn alazea-btn mr-30">Kidney</a><br><br>
+                                <a href="type2.php" class="btn alazea-btn mr-30">Diabetes Type 2</a><br><br>
                             </div>
                         </center>
                     </div>
                 </div>
                 <br><br>
             </div>
-
-            <section class="subscribe-newsletter-area" >
-                <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
-                   
-                </div>
-            </section>
-
-            <!-- <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Other/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="others.html" class="btn alazea-btn mr-30">Other Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/WaterPlant/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="waterplants.html" class="btn alazea-btn mr-30">Water Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/OrganicFertilizer/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="fertilizer.html" class="btn alazea-btn mr-30">Organic Fertilizer </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Compost&Coco/main.png" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="compost&coco.html" class="btn alazea-btn mr-30">Compost , Coconut Chips & Cubes </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-                <br><br>
-            </div> -->
-
         </div>
     </section>
     <!-- ##### Product Area End ##### -->

@@ -115,8 +115,8 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/1.jpg);">
-            <h2>Predictions</h2>
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/3.jpg);">
+            <h2>Eye Risk Prediction</h2>
         </div>
 
         <div class="container">
@@ -125,7 +125,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Predictions</li>
+                            <li class="breadcrumb-item"><a href="predictions.html"></i> Predictions</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Eye Risk Prediction</li>
                         </ol>
                     </nav>
                 </div>
@@ -139,105 +140,130 @@
         <div class="container">
 
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/diabets.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="diabetes.php" class="btn alazea-btn mr-30">Diabetes</a><br><br>
+            <div class="container">
+            <p>Please answers the all questions</p>
+            <form action="eyescore.php" method="post">
+                    <div class="form-group">
+                        <h3>Questions 1 : How old are you ? </h3>
+                                <div class="form-group"> 
+                                    <ol>
+                                        <li>
+                                            <input type="radio" name="q1" value="1" />&nbsp;&nbsp;age < 44
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="q1" value="2" />&nbsp;&nbsp;45 < age < 54
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="q1" value="3" />&nbsp;&nbsp;55 < age < 64
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="q1" value="4" />&nbsp;&nbsp;65 < age < 74
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="q1" value="5" />&nbsp;&nbsp;75 < age 
+                                        </li>
+                                    </ol>
+                                </div>
+                        <br/>
+                        <h3>Questions 2 : What is your Gender? </h3>
+                            <div class="form-group"> 
+                                <ol>
+                                    <li>
+                                        <input type="radio" name="q2" value="1" />&nbsp;&nbsp;Male
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q2" value="2" />&nbsp;&nbsp;Female
+                                    </li>
+                                </ol>
                             </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/heart.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="heart.php" class="btn alazea-btn mr-30">Heart</a><br><br>
+                        <br/>
+                        <h3>Questions 3 : Blood Pressure?</h3>
+                            <div class="form-group"> 
+                                <ol>
+                                    <li>
+                                        <input type="radio" name="q3" value="1" />&nbsp;&nbsp;Below 120/80
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q3" value="2" />&nbsp;&nbsp;Average Below 120/80
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q3" value="3" />&nbsp;&nbsp;Average Above 120/80
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q3" value="4" />&nbsp;&nbsp;Above 120/80
+                                    </li>
+                                </ol>
                             </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/eye.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="eye.php" class="btn alazea-btn mr-30">Eye</a><br><br>
+                        <br/>
+                        
+                        <h3>Questions 4 : Do you have blood relatives with Glaucoma?</h3>
+                            <div class="form-group"> 
+                                <ol>
+                                    <li>
+                                        <input type="radio" name="q3" value="1" />&nbsp;&nbsp;Yes
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q3" value="2" />&nbsp;&nbsp;No
+                                    </li>
+                                </ol> 
                             </div>
-                        </center>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 5 : Have you ever had an eye injury or eye surgery?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q3" value="1" />&nbsp;&nbsp;Yes
+                                </li>
+                                <li>
+                                    <input type="radio" name="q3" value="2" />&nbsp;&nbsp;No
+                                </li>
+                            </ol>
                     </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/kidney.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="kidney.php" class="btn alazea-btn mr-30">Kidney</a><br><br>
-                            </div>
-                        </center>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 6 : Have you noticed a changes in your vision over the last 12 months?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q3" value="1" />&nbsp;&nbsp;Yes
+                                </li>
+                                <li>
+                                    <input type="radio" name="q3" value="2" />&nbsp;&nbsp;No
+                                </li>
+                            </ol>
                     </div>
-                </div>
-                <br><br>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 7 : Do you have persistent pain in or around the eye ?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q3" value="1" />&nbsp;&nbsp;Yes
+                                </li>
+                                <li>
+                                    <input type="radio" name="q3" value="2" />&nbsp;&nbsp;No
+                                </li>
+                            </ol>
+                    </div>
+                    <br>
+                    <div class="form-group"> 
+                        <h3>Questions 8 : Diabetes Status?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q8" value="1" />&nbsp;&nbsp;Absent
+                                </li>
+                                <li>
+                                    <input type="radio" name="q8" value="2" />&nbsp;&nbsp;Type I
+                                </li>
+                                <li>
+                                    <input type="radio" name="q8" value="3" />&nbsp;&nbsp;Type II
+                                </li>
+                            </ol>
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <input type="submit" value="Submit" name="submit" class="btn btn-primary"/>
+                    </div>
+            </form>
             </div>
-
-            <section class="subscribe-newsletter-area" >
-                <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
-                   
-                </div>
-            </section>
-
-            <!-- <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Other/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="others.html" class="btn alazea-btn mr-30">Other Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/WaterPlant/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="waterplants.html" class="btn alazea-btn mr-30">Water Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/OrganicFertilizer/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="fertilizer.html" class="btn alazea-btn mr-30">Organic Fertilizer </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Compost&Coco/main.png" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="compost&coco.html" class="btn alazea-btn mr-30">Compost , Coconut Chips & Cubes </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-                <br><br>
-            </div> -->
-
         </div>
     </section>
     <!-- ##### Product Area End ##### -->

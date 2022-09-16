@@ -115,8 +115,8 @@
     <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <!-- Top Breadcrumb Area -->
-        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/1.jpg);">
-            <h2>Predictions</h2>
+        <div class="top-breadcrumb-area bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/6.jpg);">
+            <h2>Diabetes Type 2 Prediction</h2>
         </div>
 
         <div class="container">
@@ -125,7 +125,9 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Predictions</li>
+                            <li class="breadcrumb-item"><a href="predictions.html"></i> Predictions</a></li>
+                            <li class="breadcrumb-item"><a href="diabetes.php"></i> Diabetes Predictions</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Diabetes Type 2 Prediction</li>
                         </ol>
                     </nav>
                 </div>
@@ -137,107 +139,95 @@
     <!-- ##### Product Area Start ##### -->
     <section class="team-area section-padding-100-0">
         <div class="container">
-
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/diabets.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="diabetes.php" class="btn alazea-btn mr-30">Diabetes</a><br><br>
+            <div class="container">
+            <p>Please answers the all questions</p>
+            <form action="heartscore.php" method="post">
+                        <h3>Questions 1 : What is your Gender? </h3>
+                            <div class="form-group"> 
+                                <ol>
+                                    <li>
+                                        <input type="radio" name="q1" value="1" />&nbsp;&nbsp;Male
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="q1" value="2" />&nbsp;&nbsp;Female
+                                    </li>
+                                </ol>
                             </div>
-                        </center>
+                        <div class="form-group">
+                            <h3>Questions 2 : How old are you?</h3> 
+                            <input type="text" name="height" value="" required/>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <h3>Questions 3 : What is your height?</h3> 
+                            <input type="text" name="height" value="" required/>&nbsp;&nbsp;<font style="font-size:25px">m</font>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <h3>Questions 4 : What is your weight? </h3>
+                            <input type="text" name="weight" value="" required/>&nbsp;&nbsp;<font style="font-size:25px">kg</font>
+                        </div>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 5 : Select your blood pressure level?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q5" value="1" />&nbsp;&nbsp;Below 120/80
+                                </li>
+                                <li>
+                                    <input type="radio" name="q5" value="2" />&nbsp;&nbsp;Average Below 120/80
+                                </li>
+                                <li>
+                                    <input type="radio" name="q5" value="3" />&nbsp;&nbsp;Average Above 120/80
+                                </li>
+                                <li>
+                                    <input type="radio" name="q5" value="4" />&nbsp;&nbsp;Above 120/80
+                                </li>
+                            </ol> 
                     </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/heart.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="heart.php" class="btn alazea-btn mr-30">Heart</a><br><br>
-                            </div>
-                        </center>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 6 : Select your insulin level?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q6" value="1" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q6" value="2" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q6" value="3" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q6" value="4" />&nbsp;&nbsp;N/A
+                                </li>
+                            </ol>
                     </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/eye.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="eye.php" class="btn alazea-btn mr-30">Eye</a><br><br>
-                            </div>
-                        </center>
+                    <br/>
+                    <div class="form-group"> 
+                        <h3>Questions 7 : Select your glucose level?</h3>
+                            <ol>
+                                <li>
+                                    <input type="radio" name="q7" value="1" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q7" value="2" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q7" value="3" />&nbsp;&nbsp;N/A
+                                </li>
+                                <li>
+                                    <input type="radio" name="q7" value="4" />&nbsp;&nbsp;N/A
+                                </li>
+                            </ol>
                     </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/kidney.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="kidney.php" class="btn alazea-btn mr-30">Kidney</a><br><br>
-                            </div>
-                        </center>
+                    <br><br>
+                    <div class="form-group">
+                        <input type="submit" value="Submit" name="submit" class="btn btn-primary"/>
                     </div>
-                </div>
-                <br><br>
+            </form>
             </div>
-
-            <section class="subscribe-newsletter-area" >
-                <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
-                   
-                </div>
-            </section>
-
-            <!-- <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Other/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="others.html" class="btn alazea-btn mr-30">Other Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/WaterPlant/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="waterplants.html" class="btn alazea-btn mr-30">Water Plants </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/OrganicFertilizer/main.jpg" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="fertilizer.html" class="btn alazea-btn mr-30">Organic Fertilizer </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-footer-widget">
-                        <center>
-                            <img src="img/pro-img/Compost&Coco/main.png" alt="">
-                            <div class="welcome-btn-group">
-                                <a href="compost&coco.html" class="btn alazea-btn mr-30">Compost , Coconut Chips & Cubes </a><br><br>
-                            </div>
-                        </center>
-                    </div>
-                </div>
-                <br><br>
-            </div> -->
-
         </div>
     </section>
     <!-- ##### Product Area End ##### -->
